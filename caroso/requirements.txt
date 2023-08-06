@@ -1,0 +1,8 @@
+fastapi
+deta
+PyJWT==1.7.1
+python-dotenv
+pydantic[email]
+fastapi-jwt-auth
+passlib
+bcrypt

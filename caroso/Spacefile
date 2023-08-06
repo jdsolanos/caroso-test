@@ -1,0 +1,15 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: caroso
+    src: .
+    engine: python3.9
+    primary: true
+    presets:
+      env:
+        - name: SECRET
+          description: this is not that secret xd
+          default: 77932a8010761880fa3ba13ebf7b6a09
+        - name: ALGORITHM
+          description: this is not an algorithm
+          default: HS256
